@@ -9,7 +9,7 @@ public class SQRServiceTest {
     @ParameterizedTest
     @CsvSource({
             "3,200,300",
-            "12,100,400",
+            "11,100,400",
     })
     public void shouldCalcExact(int expected, int lowerValue, int upperValue) {
         SQRService service = new SQRService();
